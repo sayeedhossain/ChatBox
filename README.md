@@ -26,9 +26,5 @@ Although the above implementation of server manages to handle most of the scenar
 One clear observation from above programs is that if the number of clients grew large, the searching time would increase in the handler class. To avoid this increase, two hash maps can be used. One with name as the key, and index in active list as the value. Another with index as key, and associated handler object as value. This way, we can quickly look up the two hashmaps for matching recipient. It is left to the readers to implement this hack to increase efficiency of the implementation.
 Another thing to notice is that this implementation doesn’t work well when users disconnect from the server. A lot of errors would be thrown because disconnection is not handled in this implementation. It can easily be implemented as in previous basic TCP examples. It is also left for the reader to implement this feature in the program.
 
+<h4>Any further query? just feel free to contact at (me@sayeedhossain.com) </h4>
 
-For any problem , just feel free to contact with me through my mail . 
-
-<h1>Author : </h1><br>
-<h3>Name : Sayeed Hossain</h3><br>
-<h3>Mail : sayeedhatim@gmail.com</h3>
